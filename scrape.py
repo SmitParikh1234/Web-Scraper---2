@@ -27,7 +27,7 @@ Radius =[]
 
 
 for i in range(1,len(temp_list)):
-    Star_names.append(temp_list[i][1])
+    Star_names.append(temp_list[i][0])
     Distance.append(temp_list[i][3])
     Mass.append(temp_list[i][5])
     Radius.append(temp_list[i][6])
